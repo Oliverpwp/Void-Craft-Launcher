@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button Content="Start" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.187,0.596" Height="97" Width="110" Click="StartButtonClick"/>
+        <TextBox HorizontalAlignment="Left" Margin="345,296,0,0" TextWrapping="Wrap" Text="name" VerticalAlignment="Top" Width="120" Height="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="285,298,0,0" TextWrapping="Wrap" Text="玩家名：" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
